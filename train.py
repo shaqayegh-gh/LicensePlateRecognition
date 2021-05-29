@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 # define width and height for training images
 IMAGE_WIDTH = 70
 IMAGE_HEIGHT = 70
-SHOW_STEPS = False
+SHOW_STEPS = True
 
 # define our characters that we want to train
 valid_chars = ['ا', 'ب', 'پ', 'ت', 'ث', 'ج', 'چ', 'ح', 'خ', 'د', 'ذ', 'ر', 'ز', 'ژ', 'س', 'ش',
